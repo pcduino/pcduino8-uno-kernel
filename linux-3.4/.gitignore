@@ -28,10 +28,13 @@ Module.symvers
 Module.markers
 *.elf
 *.bin
-*.gz
 *.bz2
 *.lzma
-*.xz
+#############
+# Nightmare: rootfs.cpio.gz and pcduino8.cpio.xz are need for building
+#*.gz
+#*.xz
+#############
 *.lzo
 *.patch
 *.gcno
