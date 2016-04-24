@@ -1,7 +1,6 @@
-# How to compile this kernel module
+# How to compile this kernel source
 
-This tutorial will tell you how to compile this kernel source code for pcDuino8 Uno and generat a uImage which includes kernel and uboot.
-
+This tutorial will tell you how to compile this kernel source code for pcDuino8 Uno and generate a uImage which includes kernel and uboot.
 
 ## PC: Ubuntu 14.04 (X64)
 ### 1. Install related tools
