@@ -640,7 +640,8 @@ EXTRA_CFLAGS += -DCONFIG_IOCTL_CFG80211 -DRTW_USE_CFG80211_STA_EVENT
 EXTRA_CFLAGS += -DDCONFIG_P2P_IPS
 ARCH := arm
 CROSS_COMPILE := arm-none-linux-gnueabi-
-KVER  := 3.3.0
+KVER  := 3.4.39
+MODDESTDIR := /lib/modules/$(KVER)/
 #KSRC:= ../lichee/linux-3.3/
 endif
 
