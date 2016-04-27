@@ -6,7 +6,7 @@ This tutorial will tell you how to compile this kernel source code for pcDuino8 
 ### 1. Install related tools
 ```
 sudo apt-get install libc6:i386 libstdc++6:i386 libncurses5:i386 zlib1g:i386
-sudo apt-get arm-linux-gnueabihf
+sudo apt-get install gcc-arm-linux-gnueabihf
 sudo apt-get install libncurses5-dev libncursesw5-dev device-tree-compiler u-boot-tools
 
 ```
