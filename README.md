@@ -5,11 +5,14 @@ This tutorial will tell you how to compile this kernel source code for pcDuino8 
 ## PC: Ubuntu 14.04 (X64)
 ### 1. Install related tools
 ```
+wget https://s3.amazonaws.com/pcduino/Tools/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux.tar.bz2
+tar -xvf gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux.tar.bz2
+export PATH=$PATH:<your gcc-linaro-arm-linux-gnueabihf-4.7 path>/bin
 sudo apt-get install libc6:i386 libstdc++6:i386 libncurses5:i386 zlib1g:i386
-sudo apt-get arm-linux-gnueabihf
 sudo apt-get install libncurses5-dev libncursesw5-dev device-tree-compiler u-boot-tools
-
 ```
+Note: gcc-linaro-arm-linux-gnueabihf-4.7 is recommanded.
+
 ### 2. Install other tools
 ```
 wget http://ftp.gnu.org/gnu/gawk/gawk-3.1.6.tar.bz2
